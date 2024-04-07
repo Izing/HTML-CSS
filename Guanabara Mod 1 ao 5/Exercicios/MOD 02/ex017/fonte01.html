@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: "work Sans" Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            Medidas Relativas
+            em=tamanho atual de uma fonte altura da letra M relativo ao tamanho natural queé 16px
+            ex= relativo a altura do "X"
+            rem= igual ao em porem tem a ver com o root
+            vw= viewport base em comparação do tamanho da tela
+            vh= viewport hight em comparação da altura da tela
+            %
+            16 px é o mesmo que 1em
+            */
+            font-size: 1em ;
+            font-weight: normal;
+            /* lighter, normal, bold, bolder ou pode ser em numeração 100 - 900*/
+        }
+
+        h1{
+            /* shorthand
+            font-family: "work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;            ]
+            font-style: italic;
+             font 
+            -> font style ->font weight -> font size -> font-family
+            */
+            font: italic bolder 3em "work Sans", sans-serif;
+        }
+        h2{
+            font: bold 2em "work Sans", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquam totam? Dicta sit deserunt exercitationem nobis tempora quo, cupiditate temporibus qui deleniti, impedit a laboriosam quaerat quibusdam ea tempore eum.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>ipsum, dolor sit amet consectetur adipisicing elit. Expedita deleniti et repudiandae dolores totam porro quae voluptatibus similique iusto, minus magni natus veniam assumenda nam sint sed? Cumque, ipsum rerum.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt reprehenderit quaerat quam aspernatur at cumque quod? Quae, omnis eius distinctio dicta eveniet corrupti neque dolorem, reiciendis animi consequuntur quasi doloribus.</p>
+
+    
+</body>
+</html>
